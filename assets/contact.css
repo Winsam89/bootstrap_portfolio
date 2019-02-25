@@ -1,0 +1,185 @@
+/* navbar */
+
+#navbar {
+    z-index: 10;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+}
+
+
+
+li {
+    padding-right: 25px;
+}
+
+a {
+    display: block;
+    font-weight: 300;
+    font-size: 17px;
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    border: 1px solid transparent;
+    text-align: center;
+  }
+
+li a:hover {
+    border-color:rgb(34, 34, 34);
+  }
+
+  /* body starts here*/
+  body {
+    background: rgb(238, 237, 237);
+}
+
+
+
+.container {
+    /* background: rgb(255, 255, 255); */
+    height: 800px;
+    /* max-width: 100%; */
+}  
+
+
+
+#row1 {
+    background: white;
+    margin-top: 70px;
+}
+
+
+
+#rightcol {
+    background: rgb(244, 224, 255);
+    height: 600px;
+}
+
+.classWithPad { 
+     padding:30px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.container {
+    height: 800px;
+    background: white;
+}  
+
+.row1 {
+    height: 600px;
+    background: white;
+    margin-top: 70px;
+} */
+
+/* Form starts here */
+
+.name {
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 40px;
+    color: white;
+  }
+
+  .formcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 25px;
+    background-color: white;
+    padding: 0px;
+    width: 600px;
+    height: 450px;
+    margin: 30px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+  padding-top:40px;
+}
+
+#fullname {
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+#subject {
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+
+.button {
+text-align: center;
+border: #111 solid 1px;
+margin: 10px;
+margin-left: 38px;
+}
+
+input {
+  margin-left: auto;
+  margin-right:auto;
+  align-content: center;
+  padding:10px;
+  width: 100px;
+}
+
+.button a:hover {
+  background-color: black;
+}
+
+.email {
+    display: grid;
+    grid-template-rows: 2;
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.message {
+    display: grid;
+    grid-template-rows: 3;
+    margin: 10px;
+
+}
+
+/* form ends */
+
+/* footer */
+
+.footer {
+    background: rgb(43, 43, 43);
+    height: 60px;
+    min-width: 100%;
+    margin-top: 25px;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
